@@ -1,0 +1,22 @@
+{
+  "name": "cobascraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scripts:runner": "node -r @ts-tools/node/r index.ts"
+  },
+  "keywords": [
+    "scraping",
+    "nodejs"
+  ],
+  "author": "jocerdikiawann",
+  "license": "ISC",
+  "dependencies": {
+    "@ts-tools/node": "^2.1.1",
+    "fetch-retry": "^4.0.1",
+    "isomorphic-unfetch": "^3.1.0",
+    "typescript": "^4.1.3"
+  }
+}
