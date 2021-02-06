@@ -1,5 +1,5 @@
 import unfetch from "isomorphic-unfetch";
-import withRetry from "fetch-retry";
+import withRetry from "@zeit/fetch-retry";
 
 const fetch = withRetry(unfetch);
 
