@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scripts:runner": "node -r @ts-tools/node/r test.ts"
+    "scripts:runner": "node -r @ts-tools/node/r index.ts"
   },
   "keywords": [
     "scraping",

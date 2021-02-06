@@ -21,6 +21,6 @@ export default async (req, res) => {
           },
         }
       )
-    ).json() 
+    ).json()
   );
 };
